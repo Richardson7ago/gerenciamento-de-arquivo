@@ -30,4 +30,4 @@ def Verificar_Inserir_Dados_Arquivo(cpf, nome):
     conn.commit()
     conn.close()
 
-Verificar_Inserir_Dados_Arquivo('065.072.741-00','Marcio Ravelli de Oliveira Cordeiro')
+Verificar_Inserir_Dados_Arquivo('000.111.222-33','Fulano de Tal')
