@@ -19,7 +19,7 @@ def atualiza_dados():
     count = 0
     for linha in curs.fetchall():
         count = count + 1
-    curs.execute("""update alunos set nome = "Joana D'arc de Souza Oliveira" where id = 1901""")
+    curs.execute("""update alunos set nome = "Fulana de Tal" where id = 1901""")
     print('Registro atualizado com sucesso!!')
     print('QUANTIDADE DE REGISTROS: ', count)
     print('\n\n')
